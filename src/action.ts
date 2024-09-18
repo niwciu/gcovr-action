@@ -32,7 +32,7 @@ export function processInputs(): Inputs {
       htmlOut: getInput("html-out"),
       htmlOutDetails: getInput("html-out-details") === "true",
       htmlTheme: getInput("html-theme"),
-      htmlTitle: getInput('html-title'),
+      htmlTitle: getInput("html-title"),
       xmlOut: getInput("xml-out"),
       coverallsOut: getInput("coveralls-out"),
       coverallsSend: getInput("coveralls-send") === "true",
