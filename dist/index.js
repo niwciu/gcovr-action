@@ -84059,7 +84059,7 @@ function processInputs() {
                 .filter((val) => val !== ""),
             failUnderLine: (0,gha_utils__WEBPACK_IMPORTED_MODULE_0__/* .getInput */ .Np)("fail-under-line"),
             htmlOut: (0,gha_utils__WEBPACK_IMPORTED_MODULE_0__/* .getInput */ .Np)("html-out"),
-            htmlOutDetails: (0,gha_utils__WEBPACK_IMPORTED_MODULE_0__/* .getInput */ .Np)("html-out-details") === "true",
+            htmlOutDetails: (0,gha_utils__WEBPACK_IMPORTED_MODULE_0__/* .getInput */ .Np)("html-details") === "true",
             htmlTheme: (0,gha_utils__WEBPACK_IMPORTED_MODULE_0__/* .getInput */ .Np)("html-theme"),
             htmlTitle: (0,gha_utils__WEBPACK_IMPORTED_MODULE_0__/* .getInput */ .Np)("html-title"),
             xmlOut: (0,gha_utils__WEBPACK_IMPORTED_MODULE_0__/* .getInput */ .Np)("xml-out"),
